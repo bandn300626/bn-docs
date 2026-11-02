@@ -1,0 +1,83 @@
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/jetbrains-mono";
+
+html[data-theme="dark"] {
+  --ifm-font-family-base: "Inter Variable", sans-serif;
+  --ifm-font-family-monospace: "JetBrains Mono Variable", monospace;
+  --ifm-background-color: #0d1117;
+  --ifm-background-surface-color: #161b22;
+  --ifm-navbar-background-color: #161b22;
+  --ifm-footer-background-color: #161b22;
+  --ifm-font-color-base: #e6edf3;
+  --ifm-heading-color: #e6edf3;
+  --ifm-toc-border-color: #30363d;
+  --ifm-color-emphasis-200: #30363d;
+  --ifm-color-emphasis-300: #30363d;
+  --ifm-table-border-color: #30363d;
+  --ifm-code-background: #161b22;
+  --ifm-global-radius: 8px;
+  --ifm-color-primary: #60a5fa;
+  --ifm-color-primary-dark: #3b82f6;
+  --ifm-color-primary-darker: #3b82f6;
+  --ifm-color-primary-darkest: #3b82f6;
+  --ifm-color-primary-light: #60a5fa;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #60a5fa;
+}
+
+.bn-logo {
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #e6edf3;
+}
+
+.bn-logo:hover {
+  color: #e6edf3;
+  text-decoration: none;
+}
+
+.bn-logo span {
+  color: #10b981;
+}
+
+.bn-logo small {
+  color: #8b949e;
+  font-weight: 600;
+}
+
+.markdown img {
+  border: 1px solid #30363d;
+  border-radius: 12px;
+}
+
+.bn-scripts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.bn-script {
+  padding: 20px;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  color: #e6edf3;
+}
+
+.bn-script:hover {
+  border-color: #3b82f6;
+  color: #e6edf3;
+  text-decoration: none;
+}
+
+.bn-script h2 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.bn-script p {
+  margin: 0;
+  color: #8b949e;
+  font-size: 0.9rem;
+}

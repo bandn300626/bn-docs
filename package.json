@@ -1,0 +1,19 @@
+{
+  "name": "bn-docs",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.10.2",
+    "@docusaurus/preset-classic": "3.10.2",
+    "@easyops-cn/docusaurus-search-local": "0.55.3",
+    "@fontsource-variable/inter": "^5.2.0",
+    "@fontsource-variable/jetbrains-mono": "^5.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "engines": { "node": ">=20" }
+}
